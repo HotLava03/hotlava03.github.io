@@ -1,0 +1,366 @@
+<!--© 2019 HotLava03. All rights reserved.-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="lava.css">
+    <style>
+        body{
+            background-color:#36393F;
+        }
+        h1{
+          color:white;
+        }
+        h2{
+          color:#FFC119;
+        }
+        p{
+          color:#9FA0A3;
+          font-size:26px;
+        }
+    </style>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>HotLava03</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#FFC119">
+      <a class="navbar-brand" href="#" style="color: white; background-color: #FFC119">
+          <img src="baclava.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Baclava
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+                <a class="nav-link" href="https://hotlava03.github.io">← Back to HotLava03 Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://hotlava03.github.io/baclava">Baclava Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Documentation <span class="sr-only">(current)</a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="commands.html">Bot Commands</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://discordapp.com/api/oauth2/authorize?client_id=554401969234771969&permissions=0&scope=bot">Invite</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+        <div class="row card mt-5" style="background-color: #2F3136">
+            <p class = "ml-2 mr-2">Welcome to the <span style="color:#FFC119">commands</span> page. All commands are explained in an extremely detailed way, so that it is easier to understand them in case of doubt. Click on each button to expand the explanation text. Each button has the command name.</p>
+        </div>
+        <h2 class="text-center mt-5">Utility</h2>
+        <div class="accordion mt-5 mb-5" id="accordionExample">
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingOne">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 >>help
+               </button>
+             </h2>
+           </div>
+           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+             <div class="card-body">
+               <p>
+                    Name: <b style="color:#FFC119">>>help</b><br />
+                    Arguments: <b style="color:#FFC119">n/a</b><br />
+                    Description: <br /><br />Sends a Direct Message with simple bot help. Advanced help is located here (this page).
+               </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingTwo">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                 >>ping
+               </button>
+             </h2>
+           </div>
+           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>ping</b><br />
+                    Arguments: <b style="color:#FFC119">n/a</b><br />
+                    Description: <br /><br />Sends bot ping relatively to the Discord API. First try might not be accurate. Use at least twice in case of need of precision.
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingThree">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                 >>info
+               </button>
+             </h2>
+           </div>
+           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>info</b><br />
+                    Arguments: <b style="color:#FFC119">n/a</b><br />
+                    Description: <br /><br />Sends information about the bot, such as the owner's Discord, the ping, the uptime, etc.
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingFour">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                 >>say
+               </button>
+             </h2>
+           </div>
+           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>say</b><br />
+                    Arguments: <b style="color:#FFC119">>>say &#60;text></b><br />
+                    Description: <br /><br />Send desired text. For example, "">>say hello world" will make the bot send the message "hello world".
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingFive">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                 >>suggest
+               </button>
+             </h2>
+           </div>
+           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>suggest</b><br />
+                    Arguments: <b style="color:#FFC119">>>say &#60;suggestion></b><br />
+                    Description: <br /><br />Send to the owner a report or suggestion. For example, "">>suggest >>help doesn't work!!!!!" will send the owner a DM saying ">>suggest >>help doesn't work!!!!!" in a specific format.
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingSix">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                 >>calc
+               </button>
+             </h2>
+           </div>
+           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>calc</b><br />
+                    Arguments: <b style="color:#FFC119">>>calc &#60;math expression></b><br />
+                    Description: <br /><br />Do a calculation. Nothing works above 25 characters. Attempt doing java code execution and my bot won't like it. Well, what can you do with 25 characters anyway?<br />
+                    Example: 
+                    [Sender] <b style="color:#FFC119">>>calc 1 + 6</b><br />
+                    [Response] (raw) <b style="color:#FFC119">```7```</b><br />
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingSeven">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                 >>getperms
+               </button>
+             </h2>
+           </div>
+           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>getperms</b><br />
+                    Arguments: <b style="color:#FFC119">>>getperms [@User] <span style="color:#9FA0A3">(not needed, by default sends author permissions)</span></b><br />
+                    Description: <br /><br />Get the permissions in the guild from a given user, or by default from the author.<br />
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingEight">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                 >>embed
+               </button>
+             </h2>
+           </div>
+           <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>embed</b><br />
+                    Arguments: <b style="color:#FFC119">>>embed &#60;title> | [description] | [footer] | [titleUrl] <span style="color:#9FA0A3">(2nd+ args are not needed, requires only title to run successfully)</span></b><br />
+                    Description: <br /><br />Creates an embed for you, with a few options. From left to right, the arguments become required after use. For example, if you want to add a footer, you must use a title and a description. For a title URL, you must use all existant arguments. The bars (|) are needed to seperate your arguments.<br />
+                    Example: 
+                    [Sender] <b style="color:#FFC119">>>embed This is a title | This is a description | Totally not a footer | https://www.discordapp.com</b><br />
+                    [Response] <img class="float-right mr-5" src="embedexample.png" alt="Whoops, example failed to load."><br />
+                    Notice: the link in the example in the title redirects to https://www.discordapp.com/, as <a href="https://www.discordapp.com/">This is a title</a>.
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingNine">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                 >>shuffle
+               </button>
+             </h2>
+           </div>
+           <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>shuffle</b><br />
+                    Arguments: <b style="color:#FFC119">>>shuffle &#60;word1> [word2] [word3] [wordN] <span style="color:#9FA0A3">(Only first argument necessary, though at least two are recommended, I mean, why would you shuffle 1 word?)</span></b><br />
+                    Description: <br /><br />Shuffles given words' order. Useful for making random teams in games, or other fun stuff. 100% random using Collections.shuffle(). Don't blame me for using that method, perfomance isn't an issue for me yet.<br />
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingTen">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                 >>uptime
+               </button>
+             </h2>
+           </div>
+           <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>uptime</b><br />
+                    Arguments: <b style="color:#FFC119">n/a</b><br />
+                    Description: <br /><br />Shorter >>info only with uptime information.<br />
+                </p>
+             </div>
+           </div>
+         </div>
+         <h2 class="text-center mt-5 mb-5">Fun</h2>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingEleven">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                 >>cat, >>dog
+               </button>
+             </h2>
+           </div>
+           <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>cat, >>dog</b><br />
+                    Arguments: <b style="color:#FFC119">n/a for both</b><br />
+                    Description: <br /><br />Sends images of these cute animals randomly. For the nerds, the used APIs are random.cat and dog.ceo, obviously respectively.<br />
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingTwelve">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                 >>react
+               </button>
+             </h2>
+           </div>
+           <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>react</b><br />
+                    Arguments: <b style="color:#FFC119">>>react &#60;messageId> &#60;emoteName></b><br />
+                    Description: <br /><br />Reacts to the given message ID and searches IN THE GUILD'S EMOTES ONLY an emote given in &#60;emoteName>. In case any information is incorrect, an error will be returned and the command won't do what it's supposed to. Or do you expect it to fix your stupid mistakes?<br />
+                </p>
+             </div>
+           </div>
+         </div>
+         <h2 class="text-center mt-5 mb-5">Games</h2>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingThirteen">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
+                 >>8ball
+               </button>
+             </h2>
+           </div>
+           <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>8ball</b><br />
+                    Arguments: <b style="color:#FFC119">>>8ball [question]</b><br />
+                    Description: <br /><br />8 random responses, one chosen, for a "question" you make for the mighty eight ball. Don't add arguments if it's a secret. Shhhh.<br />
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingFourteen">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
+                 >>scrabble
+               </button>
+             </h2>
+           </div>
+           <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>scrabble</b><br />
+                    Arguments: <b style="color:#FFC119">n/a</b><br />
+                    Description: <br /><br />Unscramble a given word, by choosing your theme. Still in development.<br />
+                </p>
+             </div>
+           </div>
+         </div>
+         <h2 class="text-center mt-5 mb-5">Other</h2>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingFifteen">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
+                 >>avatar
+               </button>
+             </h2>
+           </div>
+           <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>avatar</b><br />
+                    Arguments: <b style="color:#FFC119">>>avatar [userMention,userTag,userId]</b><br />
+                    Description: <br /><br />Get avatar from a given user, or by default your own. Yeah, nothing like your own profile picture, right? Or... not.<br />
+                </p>
+             </div>
+           </div>
+         </div>
+         <div class="card" style="background-color:#2F3136">
+           <div class="card-header" id="headingSixteen">
+             <h2 class="mb-0">
+               <button class="btn btn-outline-warning btn-md btn-block" type="button" data-toggle="collapse"data-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
+                 >>lyrics
+               </button>
+             </h2>
+           </div>
+           <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
+             <div class="card-body">
+                <p>
+                    Name: <b style="color:#FFC119">>>lyrics</b><br />
+                    Arguments: <b style="color:#FFC119">>>lyrics &#60;songName></b><br />
+                    Description: <br /><br />Get lyrics by song name. Sourced from ABC Lyrics, using jagrosh's lyrics library. If you're a developer too, check the home page of the documentation for all of these libraries I use.<br />
+                </p>
+             </div>
+           </div>
+         </div>
+    </div>
+    <div class="mt-5 ml-2 fixed-bottom position-fixed">
+        <p style="color:white; font-size:16px">© 2019 HotLava03 - All rights reserved.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
